@@ -1,0 +1,33 @@
+{
+  "name": "twelveworkers",
+  "version": "1.0.0",
+  "description": "The app that helps you track employees that work in the company called \"Sweet Tooth Kindness\".",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nellirism/twelveworkers.git"
+  },
+  "keywords": [
+    "twelve",
+    "workers"
+  ],
+  "author": "nell-e the sweetsyrupmaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nellirism/twelveworkers/issues"
+  },
+  "homepage": "https://github.com/nellirism/twelveworkers#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {}
+}
