@@ -29,6 +29,13 @@ exports.start = () => {
                 "View All Employees",
                 "Add Employee",
                 "Update Employee Role",
+                "Update Employee Managers",
+                "View Employees by Manager",
+                "View Employees by Department",
+                "Delete Department",
+                "Delete Role",
+                "Delete Employee",
+                "View Total Budget",
                 "EXIT"                
             ]
         }
@@ -43,9 +50,12 @@ exports.start = () => {
       else if(answer.choice === "Update Employee Role") {
         update.updateRole();
       }
+      else if(answer.choice === "View Employees by Manager") {
+        view.viewEmployeesbyManager();
+      }
       else if(answer.choice === "EXIT") {
         connection.end();
-        return
+        process.exit();
       }
     });
     
