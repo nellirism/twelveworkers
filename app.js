@@ -53,6 +53,9 @@ exports.start = () => {
       else if(answer.choice === "View Employees by Manager") {
         view.viewEmployeesbyManager();
       }
+    //   else if(answer.choice === "View Employees by Department") {
+    //     update.viewEmployeesbyDept();
+    //   }
       else if(answer.choice === "EXIT") {
         connection.end();
         process.exit();

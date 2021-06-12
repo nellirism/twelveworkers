@@ -23,7 +23,7 @@ All employee class attributes are handled in the server and, depending on which 
 
 This application utilizes several node modules. Run the following npm install accordingly
 
-npm install mysql inquirer console-table
+npm install mysql inquirer console.table
 
 # License
 
