@@ -6,24 +6,25 @@ The purpose of this application is to allow users to dynamically update, and man
 It utilizes the power of the mysql node module to use javascript to update mySQL database and view insertions using console.table.
 
 # Installation
-Through Github create a clone of the repository.
 
-Once cloned to your local computer, in the terminal, run npm install.
+- Through Github create a clone of the repository.
 
-Load the schema.sql and the seeds.sql into MySQLWorkbench or into MYSQL using source (e.g. source db/schema.sql).
+- Once cloned to your local computer, in the terminal, run npm install.
 
-Once the packages have been installed and MySQLWorkbench is running, run node app.js in the terminal.
+- Load the schema.sql and the seeds.sql into MySQLWorkbench or into MYSQL using source (e.g. source db/schema.sql).
 
-The program will prompt the user to select an option. 
+- Once the packages have been installed and MySQLWorkbench is running, run node app.js in the terminal.
+
+- The program will prompt the user to select an option. 
 
 # Functionality
 
 The user will be asked to choose from the following options:
 
-1. View All Employees
-2. Add Employee
-3. Update Employee Role
-4. View Employees By Manager
+- View All Employees
+- Add Employee
+- Update Employee Role
+- View Employees By Manager
 
 All employee class attributes are handled in the server and, depending on which role is chosen, a salary, manager, and department are assigned
 
@@ -36,4 +37,4 @@ Run the following npm install accordingly
 
 # License
 
-Copyright (c) 2021 Nell-e
+>Copyright (c) 2021 Nell-e
